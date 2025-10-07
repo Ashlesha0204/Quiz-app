@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { ChevronLeft, Home, Trophy, Clock, Star, RefreshCw, Sparkles, Award, Zap, Brain, BookOpen } from 'lucide-react';
 
 // API base URL - uses environment variable or fallback
-const API_BASE = import.meta.env.VITE_API_BASE_URL || 'http://localhost:5000/api';
+const API_BASE = "https://quiz-app-2-backend.onrender.com";
 
 // Utility functions for randomization
 const shuffleArray = (array) => {
